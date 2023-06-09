@@ -2,6 +2,8 @@ exe/*
 *.odd
 output/*
 
+__pycache__/
+
 .DS_Store
 
 samiam/htmlhelp/*

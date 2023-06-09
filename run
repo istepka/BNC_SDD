@@ -14,6 +14,6 @@ make
 ${JAVA} -Xmx150g -cp ${CP}:${OUT_DIR} RunCompiler ${CONFIG_FILE}
 ${JAVA} -Xmx150g -cp ${CP}:${OUT_DIR} TestOdd ${CONFIG_FILE}
 
-cd src/sdd/
-python convert_to_sdd.py ../../${CONFIG_FILE}
-cd ../../
+# cd src/sdd/
+# python convert_to_sdd.py ../../${CONFIG_FILE}
+# cd ../../
