@@ -1,11 +1,11 @@
 {
     "id": "1",
-    "name": "admission1",
+    "name": "weather",
     "filetype": "net",
-    "vars": 2,
-    "root": "Admit",
+    "vars": 3,
+    "root": "Weather",
     "leaves": [],
     "threshold": 0.5,
     "input_filepath": "../bnc_networks/",
-    "output_filepath": "../odd_models/admission/"
+    "output_filepath": "../odd_models/weather/"
 }

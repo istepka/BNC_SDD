@@ -1,6 +1,7 @@
 exe/*
 *.odd
 output/*
+config.json
 
 __pycache__/
 
