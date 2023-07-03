@@ -11,8 +11,8 @@ CONFIG_FILE="config.json"
 mkdir -p ${OUT_DIR}
 make
 
-${JAVA} -Xmx150g -cp ${CP}:${OUT_DIR} RunCompiler ${CONFIG_FILE}
-${JAVA} -Xmx150g -cp ${CP}:${OUT_DIR} TestOdd ${CONFIG_FILE}
+${JAVA} -Xmx7g -cp ${CP}:${OUT_DIR} RunCompiler ${CONFIG_FILE}
+${JAVA} -Xmx7g -cp ${CP}:${OUT_DIR} TestOdd ${CONFIG_FILE}
 
 # cd src/sdd/
 # python convert_to_sdd.py ../../${CONFIG_FILE}
